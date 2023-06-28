@@ -31,9 +31,9 @@ public class SpaceInt {
         SimpleDateFormat dateFormatter = new SimpleDateFormat("dd-MMM-yy");
 
 
-        Date tempDate = dateFormatter.parse(transferDates[0]); //initializing tempDate
+        Date tempDate = dateFormatter.parse(transferDates[0]);
 
-        for (int i = 0; i < transferDates.length; i++) {   //calculating maxTransactionDate
+        for (int i = 0; i < transferDates.length; i++) {
 
             Date parseDate = dateFormatter.parse(transferDates[i]);
             {
